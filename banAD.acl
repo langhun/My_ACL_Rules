@@ -36,13 +36,12 @@
 (^|\.)\w*adwords\w*\.\w*$
 (^|\.)\w*analysis\w*\.\w*$
 (^|\.)\w*dnserror\w*\.\w*$
-(^|\.)\w*duomeng\w*\.\w*$
 (^|\.)\w*domob\w*\.\w*$
+(^|\.)\w*duomeng\w*\.\w*$
 (^|\.)\w*dwtrack\w*\.\w*$
 (^|\.)\w*flurry.co\w*\.\w*$
 (^|\.)\w*guanggao\w*\.\w*$
 (^|\.)\w*lianmeng\w*\.\w*$
-(^|\.)\w*omgmta\w*\.\w*$
 (^|\.)\w*openx\w*\.\w*$
 (^|\.)\w*partnerad\w*\.\w*$
 (^|\.)\w*pingfore\w*\.\w*$
@@ -56,6 +55,8 @@
 (^|\.)\w*usage\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
+(^|\.)ad\..*$
+(^|\.)ads\..*$
 
 # Baidu
 (^|\.)(a|adm|as|baichuan|baidutv|bar|bce|c|cbjs|cbjslog|cjhq|cpro|crs|datax|dj1|drmcmm|dxp|e|eclick|eiv|entry)\.baidu\.com$
@@ -83,6 +84,7 @@
 (^|\.)zz\.bdstatic\.com$
 
 # QQ
+(^|\.)\w*omgmta\w*\.\w*$
 (^|\.)(act|adsfile|beacon|e|gdt|l|monitor|omgmta|pingma|pingjs|pingtcss|report|tajs|tcss)(\.uu|)\.qq\.com$
 (^|\.)(adsense|mqqad|tpush)\.html5\.qq\.com$
 (^|\.)(btrace|bugly|buluo)\.qq\.com$
@@ -97,6 +99,7 @@
 (^|\.)qqvideo\.tc\.qq\.com$
 
 # Ali
+(^|\.)\w*adash\w*\.\w*$
 (^|\.)(acs4baichuan|adash|adashbc|adashx|adashx4yt|amdc|apoll|huodong|m-adash|rj|simaba)\.m\.taobao\.com$
 (^|\.)(adash|adashbc|adashxgc)\.ut\.taobao\.com$
 (^|\.)(afp|atanx|dorangesource|gma|nbsdk-baichuan)\.alicdn\.com$
@@ -244,7 +247,7 @@
 
 # iqiyi
 (^|\.)(afp|ckm|cupid|ifacelog|paopao|rcd)\.qiyi\.com$
-(^|\.)(msg|msg2)\.video\.qiyi\.com$
+(^|\.)(data|msg|msg2)\.video\.qiyi\.com$
 (^|\.)ad\.m\.iqiyi\.com$
 
 # Youku & Tudou
@@ -616,7 +619,6 @@
 (^|\.)d\.socdm\.com$
 (^|\.)daohang\.114so\.cn$
 (^|\.)dap\.gentags\.net$
-(^|\.)data\.video\.qiyi\.com$
 (^|\.)dd\.wenwo\.com$
 (^|\.)ddapp\.cn$
 (^|\.)deaohudong\.com$
@@ -772,7 +774,6 @@
 (^|\.)iwencai\.com$
 (^|\.)ix\.hao61\.net$
 (^|\.)j\.pcpop\.com$
-(^|\.)j\.qiqiyii\.com$
 (^|\.)jermr\.com$
 (^|\.)jiaadx\.com$
 (^|\.)jiafe\.com$
@@ -6297,10 +6298,6 @@
 (^|\.)xn--i2ru8q2qg\.com$
 
 # 特殊域名全部代理 通用规则
-^(.*\.)?cc$
-^(.*\.)?co$
-^(.*\.)?gl$
-^(.*\.)?hk$
 ^(.*\.)?jp$
 ^(.*\.)?sg$
 ^(.*\.)?tw$
