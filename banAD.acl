@@ -1,5 +1,5 @@
-# 1.08
-# 2017年2月11日21:24:24 02.11
+# 1.09
+# 2017年2月12日13:17:10 02.11
 #leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -36,8 +36,8 @@
 (^|\.)\w*adwords\w*\.\w*$
 (^|\.)\w*analysis\w*\.\w*$
 (^|\.)\w*dnserror\w*\.\w*$
-(^|\.)\w*domob\w*\.\w*$
 (^|\.)\w*duomeng\w*\.\w*$
+(^|\.)\w*domob\w*\.\w*$
 (^|\.)\w*dwtrack\w*\.\w*$
 (^|\.)\w*flurry.co\w*\.\w*$
 (^|\.)\w*guanggao\w*\.\w*$
@@ -96,6 +96,24 @@
 (^|\.)pgdt\.gtimg\.cn$
 (^|\.)qqvideo\.tc\.qq\.com$
 
+# Ali
+(^|\.)(acs4baichuan|adash|adashbc|adashx|adashx4yt|amdc|apoll|huodong|m-adash|rj|simaba)\.m\.taobao\.com$
+(^|\.)(adash|adashbc|adashxgc)\.ut\.taobao\.com$
+(^|\.)(afp|atanx|dorangesource|gma|nbsdk-baichuan)\.alicdn\.com$
+(^|\.)(nbsdk-baichuan|sdkinit|simaba)\.taobao\.com$
+(^|\.)acjs\.aliyun\.com$
+(^|\.)alipaylog\.com$
+(^|\.)amdc\.alipay\.com$
+(^|\.)hydra\.alibaba\.com$
+(^|\.)pics\.taobaocdn\.com$
+(^|\.)pindao\.huoban\.taobao\.com$
+(^|\.)show\.re\.taobao\.com$
+(^|\.)strip\.taobaocdn\.com$
+(^|\.)tanx\.com$
+(^|\.)tns\.simba\.taobao\.com$
+(^|\.)userimg\.qunar\.com$
+(^|\.)yiliao\.hupan\.com$
+
 # 360
 (^|\.)3600\.com$
 (^|\.)adapi\.shouji\.360\.cn$
@@ -110,26 +128,7 @@
 (^|\.)stat\.m\.360\.cn$
 (^|\.)update\.360safe\.com$
 
-# Ali
-(^|\.)(acs4baichuan|adash|adashbc|adashx|adashx4yt|amdc|apoll|huodong|m-adash|rj|simaba)\.m\.taobao\.com$
-(^|\.)(adash|adashbc|adashxgc)\.ut\.taobao\.com$
-(^|\.)(afp|atanx|gma)\.alicdn\.com$
-(^|\.)(nbsdk-baichuan|sdkinit|simaba)\.taobao\.com$
-(^|\.)acjs\.aliyun\.com$
-(^|\.)alipaylog\.com$
-(^|\.)amdc\.alipay\.com$
-(^|\.)dorangesource\.alicdn\.com$
-(^|\.)hydra\.alibaba\.com$
-(^|\.)pics\.taobaocdn\.com$
-(^|\.)pindao\.huoban\.taobao\.com$
-(^|\.)show\.re\.taobao\.com$
-(^|\.)strip\.taobaocdn\.com$
-(^|\.)tanx\.com$
-(^|\.)tns\.simba\.taobao\.com$
-(^|\.)userimg\.qunar\.com$
-(^|\.)yiliao\.hupan\.com$
-
-# 新浪 Sina
+# Sina
 (^|\.)(ad|adm|atm|beacon|d0|d1|d7|dcads|dmp|sax|slog|tjs)(\.leju|\.sjs)\.sina\.com(\.cn|)$
 (^|\.)(adimg|pay|sdkclick|trends|wbclick|wbpctips)\.mobile\.sina\.cn$
 (^|\.)(alitui|biz|game)\.weibo\.com(\.cn|)$
@@ -144,7 +143,7 @@
 (^|\.)u1\.img\.mobile\.sina\.cn$
 (^|\.)zymo\.mps\.weibo\.com$
 
-# 网易163
+# 163
 (^|\.)(adgeo|analytics|bobo|fa|g|g1|gb|temp)(\.corp|)\.163\.com$
 (^|\.)(analytics|img1|ws)(\.corp|)\.126\.net$
 (^|\.)(f1|f2)(\.corp|)\.p0y\.cn$
@@ -178,25 +177,14 @@
 (^|\.)apk\.shouji\.koowo\.com$
 (^|\.)g\.koowo\.com$
 
-# Google
-(^|\.)2mdn\.net$
-(^|\.)admob\.com$
-(^|\.)ads\.gmodules\.com$
-(^|\.)ads\.google\.com$
-(^|\.)afd\.l\.google\.com$
-(^|\.)badad\.googleplex\.com$
-(^|\.)csi\.gstatic\.com$
-(^|\.)doubleclick(\.com|\.net)$
-# Disable customized fonts
-(^|\.)fonts\.googleapis\.com$
-(^|\.)googleadsserving\.cn$
-(^|\.)googlecommerce\.com$
-(^|\.)googletagmanager\.com$
-(^|\.)mobileads\.google\.com$
-(^|\.)pagead-tpc\.l\.google\.com$
-(^|\.)pagead\.google\.com$
-(^|\.)pagead\.l\.google\.com$
-(^|\.)service\.urchin\.com$
+# Meitu
+(^|\.)a\.koudai\.com$
+(^|\.)corp\.meitu\.com$
+(^|\.)gg\.meitu\.com$
+(^|\.)message\.meitu\.com$
+(^|\.)xiuxiu\.android\.dl\.meitu\.com$
+(^|\.)xiuxiu\.mobile\.meitudata\.com$
+(^|\.)tuiguang\.meitu\.com$
 
 # Wi-Fi key
 (^|\.)(wifiapi01|wifiapi02)\.51y5\.net$
@@ -222,6 +210,26 @@
 (^|\.)tiangoutai\.com$
 (^|\.)twcczhu\.com$
 (^|\.)youle55\.com$
+
+# Google
+(^|\.)2mdn\.net$
+(^|\.)admob\.com$
+(^|\.)ads\.gmodules\.com$
+(^|\.)ads\.google\.com$
+(^|\.)afd\.l\.google\.com$
+(^|\.)badad\.googleplex\.com$
+(^|\.)csi\.gstatic\.com$
+(^|\.)doubleclick(\.com|\.net)$
+# Disable customized fonts
+(^|\.)fonts\.googleapis\.com$
+(^|\.)googleadsserving\.cn$
+(^|\.)googlecommerce\.com$
+(^|\.)googletagmanager\.com$
+(^|\.)mobileads\.google\.com$
+(^|\.)pagead-tpc\.l\.google\.com$
+(^|\.)pagead\.google\.com$
+(^|\.)pagead\.l\.google\.com$
+(^|\.)service\.urchin\.com$
 
 # Kakao Talk
 (^|\.)kakao\.com$
@@ -455,7 +463,6 @@
 (^|\.)ads\.wasu\.tv$
 (^|\.)ads\.yahoo\.com$
 (^|\.)adse\.ximalaya\.com$
-(^|\.)adsh\.m\.taobao\.com$
 (^|\.)adsmogo\.org$
 (^|\.)adspod\.cn$
 (^|\.)adsunflower\.com$
@@ -513,7 +520,6 @@
 (^|\.)appsdt\.com$
 (^|\.)appsflyer\.com$
 (^|\.)appstat\.dfcfw\.com$
-(^|\.)atanx2\.alicdn\.com$
 (^|\.)atdmt\.com$
 (^|\.)audience\.network$
 (^|\.)avazutracking\.net$
@@ -883,6 +889,7 @@
 (^|\.)pd\.dopa\.com\.cn$
 (^|\.)pd\.ok365\.com$
 (^|\.)picture\.duokan\.com$
+(^|\.)pingannian\.com$
 (^|\.)pingdom\.net$
 (^|\.)pixel\.redditmedia\.com$
 (^|\.)pixel\.wp\.com$
@@ -1189,6 +1196,25 @@
 # 中国CN域名直连
 ^(.*\.)?cn$
 
+# TaoBao
+(^|\.)alibaba\.com$
+(^|\.)alicdn\.com$
+(^|\.)aliexpress\.com$
+(^|\.)aliimg\.com$
+(^|\.)alikunlun\.com$
+(^|\.)alipay\.com$
+(^|\.)alisoft\.com$
+(^|\.)aliyun\.com$
+(^|\.)aliyuncdn\.com$
+(^|\.)aliyuncs\.com$
+(^|\.)intl\.taobao\.com$
+(^|\.)m\.taobao\.com$
+(^|\.)taobao\.com$
+(^|\.)taobaocdn\.com$
+(^|\.)tbcache\.com$
+(^|\.)tbcdn\.com$
+
+
 # 中国国内域名关键词直连
 (^|\.)\w*\-cn\w*\.\w*$
 (^|\.)\w*0x\w*\.\w*$
@@ -1244,6 +1270,7 @@
 (^|\.)51img1\.com$
 (^|\.)51job\.com$
 (^|\.)51jobcdn\.com$
+(^|\.)53site\.com$
 (^|\.)56\.com$
 (^|\.)56img\.com$
 (^|\.)58\.com$
@@ -1275,16 +1302,6 @@
 (^|\.)aixifan\.com$
 (^|\.)aiyiqu\.com$
 (^|\.)ali213\.net$
-(^|\.)alibaba\.com$
-(^|\.)alicdn\.com$
-(^|\.)aliexpress\.com$
-(^|\.)aliimg\.com$
-(^|\.)alikunlun\.com$
-(^|\.)alipay\.com$
-(^|\.)alisoft\.com$
-(^|\.)aliyun\.com$
-(^|\.)aliyuncdn\.com$
-(^|\.)aliyuncs\.com$
 (^|\.)amap\.com$
 (^|\.)amazon\.com$
 (^|\.)anzhi\.com$
@@ -1485,7 +1502,6 @@
 (^|\.)images-amazon\.com$
 (^|\.)img-space\.com$
 (^|\.)infzm\.com$
-(^|\.)intl\.taobao\.com$
 (^|\.)iqiyi\.com$
 (^|\.)iqshw\.com$
 (^|\.)it168\.com$
@@ -1692,10 +1708,6 @@
 (^|\.)szzfgjj\.com$
 (^|\.)t2io\.com$
 (^|\.)tankr\.net$
-(^|\.)taobao\.com$
-(^|\.)taobaocdn\.com$
-(^|\.)tbcache\.com$
-(^|\.)tbcdn\.com$
 (^|\.)tdimg\.com$
 (^|\.)tencent\.com$
 (^|\.)tenpay\.com$
@@ -6177,7 +6189,6 @@
 219.83.128.0/17
 219.90.68.0/22
 219.90.72.0/21
-219.146.251.0/255
 219.128.0.0/11
 219.216.0.0/13
 219.224.0.0/12
