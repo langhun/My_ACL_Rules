@@ -1,5 +1,5 @@
-# 1.09
-# 2017年2月12日13:17:10 02.11
+# 1.10
+# 2017年2月13日09:22:11 02.13
 #leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -100,7 +100,7 @@
 
 # Ali
 (^|\.)\w*adash\w*\.\w*$
-(^|\.)(acs4baichuan|adash|adashbc|adashx|adashx4yt|amdc|apoll|huodong|m-adash|rj|simaba)\.m\.taobao\.com$
+(^|\.)(acs4baichuan|adash|adashbc|adashx|adashx4yt|amdc|apoll|huodong|rj|simaba)\.m\.taobao\.com$
 (^|\.)(adash|adashbc|adashxgc)\.ut\.taobao\.com$
 (^|\.)(afp|atanx|dorangesource|gma|nbsdk-baichuan)\.alicdn\.com$
 (^|\.)(nbsdk-baichuan|sdkinit|simaba)\.taobao\.com$
@@ -252,7 +252,7 @@
 
 # Youku & Tudou
 (^|\.)(actives|atm|hz|lstat|lvip|mobilemsg|msg|stat|ssl-comments|ykatr|ykrectab)\.youku\.com$
-(^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
+(^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat|stats)\.tudou\.com$
 (^|\.)(ad|das|api|statis)\.mobile\.youku\.com$
 (^|\.)(p|r|v)\.l\.youku\.com$
 (^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
@@ -409,7 +409,6 @@
 (^|\.)ad\.95306\.cn$
 (^|\.)ad\.cctv\.com$
 (^|\.)ad\.dedecms\.com$
-(^|\.)ad\.doubleclick\.net$
 (^|\.)ad\.mobile\.youlu\.com$
 (^|\.)ad\.qingting\.fm$
 (^|\.)ad\.test\.ximalaya\.com$
@@ -671,7 +670,6 @@
 (^|\.)fastclick\.net$
 (^|\.)fastlylb\.net$
 (^|\.)feih\.com\.cn$
-(^|\.)fengbuy\.com$
 (^|\.)file\.market\.xiaomi\.com$
 (^|\.)findjapan\.cn$
 (^|\.)flurry\.com$
@@ -818,7 +816,6 @@
 (^|\.)love\.bobo\.com$
 (^|\.)lufax\.com$
 (^|\.)lzplugin\.bshare\.cn$
-(^|\.)m\.madthumbs\.com$
 (^|\.)m\.sa\.sm\.cn$
 (^|\.)madgic\.mobi$
 (^|\.)madmini\.com$
@@ -966,13 +963,11 @@
 (^|\.)static1\.bfdcdn\.com$
 (^|\.)static\.applifier\.com$
 (^|\.)static\.diditaxi\.com\.cn$
-(^|\.)static\.googleadsserving\.cn$
 (^|\.)static\.gridsumdissector\.com$
 (^|\.)statics\.motu\.pagechoice\.net$
 (^|\.)stats\.chinaz\.com$
 (^|\.)stats\.developingperspective\.com$
 (^|\.)stats\.jpush\.cn$
-(^|\.)stats\.tudou\.com$
 (^|\.)stream-hk\.viu\.com$
 (^|\.)stream-hk\.viu\.com,Proxy
 (^|\.)su\.bdimg\.com$
@@ -988,7 +983,6 @@
 (^|\.)talkingdata\.net$
 (^|\.)tapjoyads\.com$
 (^|\.)telemetryverification\.net$
-(^|\.)temp\.163\.com$
 (^|\.)tg\.1155t\.cn$
 (^|\.)th7\.cn$
 (^|\.)thescenseproject\.com$
