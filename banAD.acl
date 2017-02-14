@@ -864,7 +864,6 @@
 (^|\.)page\.amap\.com$
 (^|\.)pailady\.com$
 (^|\.)partner\.toutiao\.com$
-(^|\.)partnerad\.l\.google\.com$
 (^|\.)pcookie\.mlt01\.com$
 (^|\.)pd\.dopa\.com\.cn$
 (^|\.)pd\.ok365\.com$
@@ -1158,8 +1157,6 @@
 [bypass_list]
 # 直连列表
 
-#MyList
-(^|\.)translate\.google\.cn$
 
 # 局域网直连
 127.0.0.1
@@ -1420,7 +1417,6 @@
 (^|\.)fenzhi\.com$
 (^|\.)fhldns\.com$
 (^|\.)fir\.im$
-(^|\.)font\.fonts\.googleapis\.com$
 (^|\.)footprint\.net$
 (^|\.)frdic\.com$
 (^|\.)fresh-ideas\.cc$
@@ -6290,9 +6286,6 @@
 (^|\.)\w*dropbox\w*\.\w*$
 (^|\.)\w*facebook\w*\.\w*$
 (^|\.)\w*fbcdn\w*\.\w*$
-(^|\.)\w*gmail\w*\.\w*$
-(^|\.)\w*google\w*\.\w*$
-(^|\.)\w*gstatic\w*\.\w*$
 (^|\.)\w*instagram\w*\.\w*$
 (^|\.)\w*spotify\w*\.\w*$
 (^|\.)\w*telegram\w*\.\w*$
