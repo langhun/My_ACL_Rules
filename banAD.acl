@@ -214,25 +214,6 @@
 (^|\.)twcczhu\.com$
 (^|\.)youle55\.com$
 
-# Google
-(^|\.)2mdn\.net$
-(^|\.)admob\.com$
-(^|\.)ads\.gmodules\.com$
-(^|\.)ads\.google\.com$
-(^|\.)afd\.l\.google\.com$
-(^|\.)badad\.googleplex\.com$
-(^|\.)csi\.gstatic\.com$
-(^|\.)doubleclick(\.com|\.net)$
-# Disable customized fonts
-(^|\.)fonts\.googleapis\.com$
-(^|\.)googleadsserving\.cn$
-(^|\.)googlecommerce\.com$
-(^|\.)googletagmanager\.com$
-(^|\.)mobileads\.google\.com$
-(^|\.)pagead-tpc\.l\.google\.com$
-(^|\.)pagead\.google\.com$
-(^|\.)pagead\.l\.google\.com$
-(^|\.)service\.urchin\.com$
 
 # Kakao Talk
 (^|\.)kakao\.com$
